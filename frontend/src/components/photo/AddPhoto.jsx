@@ -951,8 +951,8 @@ const AddPhoto = () => {
             -webkit-backdrop-filter: blur(5px) !important;
             z-index: 999 !important;
           }
-        }
-      `}</style>
+                }
+        `}</style>
     </div>
   );
 };

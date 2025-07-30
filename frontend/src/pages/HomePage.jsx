@@ -22,7 +22,7 @@ const HomePage = () => {
             ¡Bienvenido a tu Álbum de Fotos!
           </h2>
           <p className="mb-0 welcome-text">
-            ¿Cuándo visitas un lugar y tomas fotos te gustarías que estuvieran
+            ¿Cuándo visitas un lugar y tomas fotos te gustaría que estuvieran
             guardadas en un lugar especial como un álbum? ¡Pues aquí esta el
             álbum de fotos digital, en donde puedes guardar todas las fotos
             importantes de tus viajes a distintos países o regiones del mundo, o
