@@ -38,7 +38,7 @@ const Register = () => {
           <h2 className="card-title text-center mb-4">Registro</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
-              <label>Nombre:</label>
+              <label style={{ fontWeight: '600', color: '#333' }}>Nombre:</label>
               <div style={{ position: 'relative', marginBottom: '16px' }}>
                 <input
                   type="text"
@@ -58,7 +58,7 @@ const Register = () => {
               </div>
             </div>
             <div className="mb-3">
-              <label>Email:</label>
+              <label style={{ fontWeight: '600', color: '#333' }}>Email:</label>
               <div style={{ position: 'relative', marginBottom: '16px' }}>
                 <input
                   type="email"
@@ -78,7 +78,7 @@ const Register = () => {
               </div>
             </div>
             <div className="mb-3">
-              <label>Password:</label>
+              <label style={{ fontWeight: '600', color: '#333' }}>Password:</label>
               <div style={{ position: 'relative', marginBottom: '16px' }}>
                 <input
                   type="password"

@@ -75,39 +75,59 @@ const Login = () => {
         <div className="card-body">
           <h2 className="card-title text-center mb-4">Iniciar sesión</h2>
           <form onSubmit={handleSubmit}>
-            <div style={{ position: 'relative', marginBottom: '16px' }}>
-              <input
-                type="email"
-                className="form-control"
-                style={{
-                  border: '2px solid #2196f3',
-                  borderRadius: '0.7rem',
-                  boxShadow: '0 0 8px #90caf9',
-                  paddingRight: '36px',
-                  width: '100%'
-                }}
-                value={email}
-                onChange={e => setEmail(e.target.value)}
-                required
-              />
-              <FaUser style={{ position: 'absolute', right: '10px', top: '50%', transform: 'translateY(-50%)', color: '#2196f3' }} />
+            <div style={{ marginBottom: '16px' }}>
+              <label 
+                htmlFor="email" 
+                className="form-label"
+                style={{ fontWeight: '600', marginBottom: '8px', color: '#333' }}
+              >
+                Email:
+              </label>
+              <div style={{ position: 'relative' }}>
+                <input
+                  id="email"
+                  type="email"
+                  className="form-control"
+                  style={{
+                    border: '2px solid #2196f3',
+                    borderRadius: '0.7rem',
+                    boxShadow: '0 0 8px #90caf9',
+                    paddingRight: '36px',
+                    width: '100%'
+                  }}
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
+                  required
+                />
+                <FaUser style={{ position: 'absolute', right: '10px', top: '50%', transform: 'translateY(-50%)', color: '#2196f3' }} />
+              </div>
             </div>
-            <div style={{ position: 'relative', marginBottom: '16px' }}>
-              <input
-                type="password"
-                className="form-control"
-                style={{
-                  border: '2px solid #2196f3',
-                  borderRadius: '0.7rem',
-                  boxShadow: '0 0 8px #90caf9',
-                  paddingRight: '36px',
-                  width: '100%'
-                }}
-                value={password}
-                onChange={e => setPassword(e.target.value)}
-                required
-              />
-              <FaLock style={{ position: 'absolute', right: '10px', top: '50%', transform: 'translateY(-50%)', color: '#2196f3' }} />
+            <div style={{ marginBottom: '16px' }}>
+              <label 
+                htmlFor="password" 
+                className="form-label"
+                style={{ fontWeight: '600', marginBottom: '8px', color: '#333' }}
+              >
+                Password:
+              </label>
+              <div style={{ position: 'relative' }}>
+                <input
+                  id="password"
+                  type="password"
+                  className="form-control"
+                  style={{
+                    border: '2px solid #2196f3',
+                    borderRadius: '0.7rem',
+                    boxShadow: '0 0 8px #90caf9',
+                    paddingRight: '36px',
+                    width: '100%'
+                  }}
+                  value={password}
+                  onChange={e => setPassword(e.target.value)}
+                  required
+                />
+                <FaLock style={{ position: 'absolute', right: '10px', top: '50%', transform: 'translateY(-50%)', color: '#2196f3' }} />
+              </div>
             </div>
             <div className="mb-3 form-check">
               <input
@@ -151,6 +171,3 @@ const Login = () => {
 };
 
 export default Login;
-
-
-
