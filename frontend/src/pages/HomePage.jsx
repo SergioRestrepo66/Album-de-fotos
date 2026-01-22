@@ -29,7 +29,7 @@ const HomePage = () => {
             inclusive lo puedes dejar para guardar fotos familiares!. ¡Ya tu
             decides para que lo quieres utilizar!. Y no te preocupes por que no
             se te van a perder, cuando las guardas se quedan aquí para siempre.
-            ¡Esperamos que guardes muchas fotos!. Para empezar solamente dale a{" "}
+            ¡Esperamos que guardes muchas fotos!. Para empezar solamente dale click a{" "}
             <Link
               to="/album"
               className="text-decoration-underline fw-bold"

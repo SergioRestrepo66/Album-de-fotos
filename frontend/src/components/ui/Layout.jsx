@@ -38,7 +38,7 @@ const Layout = ({ children, variant }) => (
     >
       <p style={{ margin: 0 }}>
         {" "}
-        &copy; 2025 Todos los derechos Reservados. Creado By Sergio Restrepo
+        &copy; 2026 Todos los derechos Reservados. Creado By Sergio Restrepo
       </p>
     </footer>
   </div>
